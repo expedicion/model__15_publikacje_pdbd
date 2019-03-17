@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="127AA1E6-EC35-05A0-09D7-A12BA859271D" containerWithKeyObject="D9D84D58-CE1F-1A80-5B84-DC60D811F954" localFKIndex="F5699D1F-052A-56BC-BD9C-CCF901DC46B0" name="PUBLIKACJA_WYDAWNICTWO_FK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:41:06 UTC</createdTime>
+<generatorID>DDD71701-3DD6-728E-F78E-C70496D856DD</generatorID>
+<ownerDesignName>Publikacje</ownerDesignName>
+<referredTableLongName>WYDAWNICTWO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E8B2B4F4-D2A7-6B90-BD1A-344457CE705A</referredTableID>
+<keyObject>DC075861-1F1D-B186-0C40-45833E18DF90</keyObject>
+<referredKeyID>DC075861-1F1D-B186-0C40-45833E18DF90</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>KOD_WYDAWNICTWA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

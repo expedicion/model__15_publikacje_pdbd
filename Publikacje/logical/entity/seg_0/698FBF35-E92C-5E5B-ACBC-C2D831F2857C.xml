@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="698FBF35-E92C-5E5B-ACBC-C2D831F2857C" name="PUBLIKACJA">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:34:01 UTC</createdTime>
+<ownerDesignName>Publikacje</ownerDesignName>
+<engineerTo>
+<item key="EF1BA488-2A42-27F5-5856-83925A8C86CD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ISBN" id="4C74ADDA-EBAA-9F10-5838-773FDC1C0DC4">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:35:12 UTC</createdTime>
+<ownerDesignName>Publikacje</ownerDesignName>
+<engineerTo>
+<item key="EF1BA488-2A42-27F5-5856-83925A8C86CD" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TYTUL" id="02C19966-5165-9D8A-9CBD-FFA27B07FED2">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:35:19 UTC</createdTime>
+<ownerDesignName>Publikacje</ownerDesignName>
+<engineerTo>
+<item key="EF1BA488-2A42-27F5-5856-83925A8C86CD" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ROK_WYDANIA" id="AD39746F-98D1-DB00-73BB-43A52E283145">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:35:30 UTC</createdTime>
+<ownerDesignName>Publikacje</ownerDesignName>
+<engineerTo>
+<item key="EF1BA488-2A42-27F5-5856-83925A8C86CD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LICZBA_STRON" id="B88ABFFD-A146-A34B-3B0C-948CC5AF9C67">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:35:41 UTC</createdTime>
+<ownerDesignName>Publikacje</ownerDesignName>
+<engineerTo>
+<item key="EF1BA488-2A42-27F5-5856-83925A8C86CD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KOD_WYDAWNICTWA" id="824CEC92-704C-7AC2-F241-FF61F9C73683">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:39:46 UTC</createdTime>
+<generatorID>DDD71701-3DD6-728E-F78E-C70496D856DD</generatorID>
+<ownerDesignName>Publikacje</ownerDesignName>
+<engineerTo>
+<item key="EF1BA488-2A42-27F5-5856-83925A8C86CD" value="true"/>
+</engineerTo>
+<referedAttribute>E0F60725-6A0A-F5F7-4099-7D5A3832E09F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="84EC8E63-4363-85D7-B11B-5C24FDAE0361" name="PUBLIKACJA PK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:35:18 UTC</createdTime>
+<ownerDesignName>Publikacje</ownerDesignName>
+<engineerTo>
+<item key="EF1BA488-2A42-27F5-5856-83925A8C86CD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4C74ADDA-EBAA-9F10-5838-773FDC1C0DC4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9B1ACC50-ABB4-614E-3D9E-00789E4894B3" name="AUTORSTWO">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:41:06 UTC</createdTime>
+<generatorID>4D7B2F9E-54FF-6E5C-FC1F-4ACE21B955A9</generatorID>
+<ownerDesignName>Publikacje</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LP" id="5D9A13B7-82CE-8A92-E6D2-68AF86CB4391">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:41:06 UTC</createdTime>
+<generatorID>26F0DA29-97AC-DE50-F141-8B0DEBA87EE9</generatorID>
+<ownerDesignName>Publikacje</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYP_AUTORSTWA" id="C1658EF7-B312-4DD9-5C6A-EE0FF0A44EAB">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:41:06 UTC</createdTime>
+<generatorID>A11393E2-111D-C29E-D2A7-A1BE21450464</generatorID>
+<ownerDesignName>Publikacje</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_AUTORA" id="895D7AA2-6805-52B8-E638-A3F2F7D33AE0">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:41:06 UTC</createdTime>
+<generatorID>21CF6664-8D2E-F9A6-D3DC-90E11A7D8C0D</generatorID>
+<ownerDesignName>Publikacje</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B4090DF0-00E3-F9E4-2B79-86A67D5D006B" referredColumn="D5499C68-93CE-23DF-A726-41C24A22A2DF"/>
+</associations>
+</Column>
+<Column name="ISBN" id="B8BDC1A3-CFFE-AB3D-3C93-6E4C87044F3B">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:41:06 UTC</createdTime>
+<generatorID>10688ADA-6BCE-D7D1-962C-108BCC2E4671</generatorID>
+<ownerDesignName>Publikacje</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="96A41A7B-F599-101C-BF10-CD6D2E927EE8" referredColumn="22B82038-EF90-105D-49DA-03F8DB9A2CB4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="338DFEF3-28E4-E154-8156-F4FEEA64B012" name="AUTORSTWO_PK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:41:06 UTC</createdTime>
+<generatorID>EA8DA481-A5C7-4109-0D76-0FF5A5100030</generatorID>
+<ownerDesignName>Publikacje</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D9A13B7-82CE-8A92-E6D2-68AF86CB4391"/>
+<colUsage columnID="B8BDC1A3-CFFE-AB3D-3C93-6E4C87044F3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="37C14A6F-B272-2FF6-071D-DE60E60FB0FB" name="AUTORSTWO_AUTOR_FK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:41:06 UTC</createdTime>
+<generatorID>AE63A6E4-5C33-5B64-18EB-08253C205F3B</generatorID>
+<ownerDesignName>Publikacje</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="895D7AA2-6805-52B8-E638-A3F2F7D33AE0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="482A2D78-4E24-FEC8-30A3-076DCA85261A" name="AUTORSTWO_PUBLIKACJA_FK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:41:06 UTC</createdTime>
+<generatorID>9FA1C5D2-37AA-639C-F598-DFD3360C7996</generatorID>
+<ownerDesignName>Publikacje</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8BDC1A3-CFFE-AB3D-3C93-6E4C87044F3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

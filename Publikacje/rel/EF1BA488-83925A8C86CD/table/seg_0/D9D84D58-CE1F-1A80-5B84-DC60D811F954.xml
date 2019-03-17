@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D9D84D58-CE1F-1A80-5B84-DC60D811F954" name="PUBLIKACJA">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:41:06 UTC</createdTime>
+<generatorID>698FBF35-E92C-5E5B-ACBC-C2D831F2857C</generatorID>
+<ownerDesignName>Publikacje</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ISBN" id="22B82038-EF90-105D-49DA-03F8DB9A2CB4">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:41:06 UTC</createdTime>
+<generatorID>4C74ADDA-EBAA-9F10-5838-773FDC1C0DC4</generatorID>
+<ownerDesignName>Publikacje</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYTUL" id="625E692C-785F-81DD-82C2-9D21AB0C8B42">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:41:06 UTC</createdTime>
+<generatorID>02C19966-5165-9D8A-9CBD-FFA27B07FED2</generatorID>
+<ownerDesignName>Publikacje</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KOD_WYDAWNICTWA" id="918CAEDA-7953-4C3C-F134-CFC929F3A8C5">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:41:06 UTC</createdTime>
+<generatorID>824CEC92-704C-7AC2-F241-FF61F9C73683</generatorID>
+<ownerDesignName>Publikacje</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="127AA1E6-EC35-05A0-09D7-A12BA859271D" referredColumn="6A3E3978-F9B9-92C6-2C07-FF9A26CEE91C"/>
+</associations>
+</Column>
+<Column name="ROK_WYDANIA" id="FB7CFE63-BB7C-63D7-91DB-72CDB6CD49A5">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:41:06 UTC</createdTime>
+<generatorID>AD39746F-98D1-DB00-73BB-43A52E283145</generatorID>
+<ownerDesignName>Publikacje</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LICZBA_STRON" id="FD3B1D0B-D8BE-ABB0-889A-B211C0D95C31">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:41:06 UTC</createdTime>
+<generatorID>B88ABFFD-A146-A34B-3B0C-948CC5AF9C67</generatorID>
+<ownerDesignName>Publikacje</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C83F8E55-1E66-D3BA-D109-6BCFC1CBF69A" name="PUBLIKACJA_PK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:41:06 UTC</createdTime>
+<generatorID>84EC8E63-4363-85D7-B11B-5C24FDAE0361</generatorID>
+<ownerDesignName>Publikacje</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22B82038-EF90-105D-49DA-03F8DB9A2CB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F5699D1F-052A-56BC-BD9C-CCF901DC46B0" name="PUBLIKACJA_WYDAWNICTWO_FK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:41:06 UTC</createdTime>
+<generatorID>DDD71701-3DD6-728E-F78E-C70496D856DD</generatorID>
+<ownerDesignName>Publikacje</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="918CAEDA-7953-4C3C-F134-CFC929F3A8C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

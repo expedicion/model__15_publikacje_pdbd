@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="76D7A403-7E93-20AC-8578-BEC3E2AE0E92" name="AUTOR">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:34:56 UTC</createdTime>
+<ownerDesignName>Publikacje</ownerDesignName>
+<engineerTo>
+<item key="EF1BA488-2A42-27F5-5856-83925A8C86CD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_AUTORA" id="3C0EE2DB-57F1-B33A-B020-CBC71E93716A">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:37:48 UTC</createdTime>
+<ownerDesignName>Publikacje</ownerDesignName>
+<engineerTo>
+<item key="EF1BA488-2A42-27F5-5856-83925A8C86CD" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAZWISKO" id="56FF9829-4A43-0A35-1BBA-80132D4538D9">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:37:55 UTC</createdTime>
+<ownerDesignName>Publikacje</ownerDesignName>
+<engineerTo>
+<item key="EF1BA488-2A42-27F5-5856-83925A8C86CD" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IMIE" id="89F1E00F-5DC9-C7B5-BE0F-57E5E80B02AA">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:38:06 UTC</createdTime>
+<ownerDesignName>Publikacje</ownerDesignName>
+<engineerTo>
+<item key="EF1BA488-2A42-27F5-5856-83925A8C86CD" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TYTUL" id="898BE5F7-D377-6E0D-3102-A5609FEB71A6">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:38:17 UTC</createdTime>
+<ownerDesignName>Publikacje</ownerDesignName>
+<engineerTo>
+<item key="EF1BA488-2A42-27F5-5856-83925A8C86CD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AFILIACJA" id="5773F9AD-36A2-3495-5755-43D1ECEF50B6">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:38:29 UTC</createdTime>
+<ownerDesignName>Publikacje</ownerDesignName>
+<engineerTo>
+<item key="EF1BA488-2A42-27F5-5856-83925A8C86CD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5E318357-2ABA-C210-A4D8-695DEC368C40" name="AUTOR PK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:37:54 UTC</createdTime>
+<ownerDesignName>Publikacje</ownerDesignName>
+<engineerTo>
+<item key="EF1BA488-2A42-27F5-5856-83925A8C86CD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3C0EE2DB-57F1-B33A-B020-CBC71E93716A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

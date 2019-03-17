@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="24DBD6D0-79E1-CA8E-428A-2765582F3757" name="AUTOR">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:41:06 UTC</createdTime>
+<generatorID>76D7A403-7E93-20AC-8578-BEC3E2AE0E92</generatorID>
+<ownerDesignName>Publikacje</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_AUTORA" id="D5499C68-93CE-23DF-A726-41C24A22A2DF">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:41:06 UTC</createdTime>
+<generatorID>3C0EE2DB-57F1-B33A-B020-CBC71E93716A</generatorID>
+<ownerDesignName>Publikacje</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZWISKO" id="724DFDB2-7469-5D30-1B3B-A1CD55B8C893">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:41:06 UTC</createdTime>
+<generatorID>56FF9829-4A43-0A35-1BBA-80132D4538D9</generatorID>
+<ownerDesignName>Publikacje</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IMIE" id="4822216F-C329-EA49-F8FC-B6413DAFE0C9">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:41:06 UTC</createdTime>
+<generatorID>89F1E00F-5DC9-C7B5-BE0F-57E5E80B02AA</generatorID>
+<ownerDesignName>Publikacje</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYTUL" id="DC74516A-EDD9-43AF-2E60-FF3E5AB05F34">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:41:06 UTC</createdTime>
+<generatorID>898BE5F7-D377-6E0D-3102-A5609FEB71A6</generatorID>
+<ownerDesignName>Publikacje</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AFILIACJA" id="E257B3E7-D9AA-12D8-48AF-B2E4C722D73B">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:41:06 UTC</createdTime>
+<generatorID>5773F9AD-36A2-3495-5755-43D1ECEF50B6</generatorID>
+<ownerDesignName>Publikacje</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F4169F50-D04B-EEDD-34E8-2DF78C578134" name="AUTOR_PK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:41:06 UTC</createdTime>
+<generatorID>5E318357-2ABA-C210-A4D8-695DEC368C40</generatorID>
+<ownerDesignName>Publikacje</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5499C68-93CE-23DF-A726-41C24A22A2DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

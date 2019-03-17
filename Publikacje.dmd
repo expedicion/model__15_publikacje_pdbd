@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Publikacje" id="F02A9C69-3689-1A8F-34E8-D27ECED1ED38" version="3.5">
+<createdBy>kozelski</createdBy>
+<createdTime>2019-03-11 14:05:10 UTC</createdTime>
+<ownerDesignName>Publikacje</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>F02A9C69-3689-1A8F-34E8-D27ECED1ED38</designId>
+</OSDM_Design>

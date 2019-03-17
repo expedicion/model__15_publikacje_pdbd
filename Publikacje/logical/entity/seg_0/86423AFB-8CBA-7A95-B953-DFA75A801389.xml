@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="86423AFB-8CBA-7A95-B953-DFA75A801389" name="WYDAWNICTWO">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:34:50 UTC</createdTime>
+<ownerDesignName>Publikacje</ownerDesignName>
+<engineerTo>
+<item key="EF1BA488-2A42-27F5-5856-83925A8C86CD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="KOD_WYDAWNICTWA" id="E0F60725-6A0A-F5F7-4099-7D5A3832E09F">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:36:05 UTC</createdTime>
+<ownerDesignName>Publikacje</ownerDesignName>
+<engineerTo>
+<item key="EF1BA488-2A42-27F5-5856-83925A8C86CD" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAZWA" id="F60FF215-F946-E0CC-810D-16BCEFCF57C1">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:36:17 UTC</createdTime>
+<ownerDesignName>Publikacje</ownerDesignName>
+<engineerTo>
+<item key="EF1BA488-2A42-27F5-5856-83925A8C86CD" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MIEJSCOWOSC" id="60CD8A2F-B303-C1F6-B17C-78127988D357">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:36:25 UTC</createdTime>
+<ownerDesignName>Publikacje</ownerDesignName>
+<engineerTo>
+<item key="EF1BA488-2A42-27F5-5856-83925A8C86CD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KRAJ" id="5E7A4F4D-BC6D-6FB0-ED41-10021447C9E6">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:36:33 UTC</createdTime>
+<ownerDesignName>Publikacje</ownerDesignName>
+<engineerTo>
+<item key="EF1BA488-2A42-27F5-5856-83925A8C86CD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="25D1BE39-295E-B84F-946A-D07B8CC83B95" name="WYDAWNICTWO PK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:36:15 UTC</createdTime>
+<ownerDesignName>Publikacje</ownerDesignName>
+<engineerTo>
+<item key="EF1BA488-2A42-27F5-5856-83925A8C86CD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E0F60725-6A0A-F5F7-4099-7D5A3832E09F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

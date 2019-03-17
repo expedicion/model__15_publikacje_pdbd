@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E8B2B4F4-D2A7-6B90-BD1A-344457CE705A" name="WYDAWNICTWO">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:41:06 UTC</createdTime>
+<generatorID>86423AFB-8CBA-7A95-B953-DFA75A801389</generatorID>
+<ownerDesignName>Publikacje</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="KOD_WYDAWNICTWA" id="6A3E3978-F9B9-92C6-2C07-FF9A26CEE91C">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:41:06 UTC</createdTime>
+<generatorID>E0F60725-6A0A-F5F7-4099-7D5A3832E09F</generatorID>
+<ownerDesignName>Publikacje</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZWA" id="BB5CBE95-CD43-7B02-E625-AF843777B894">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:41:06 UTC</createdTime>
+<generatorID>F60FF215-F946-E0CC-810D-16BCEFCF57C1</generatorID>
+<ownerDesignName>Publikacje</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MIEJSCOWOSC" id="156E54A4-C00D-F071-1910-27AABE3FB8B0">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:41:06 UTC</createdTime>
+<generatorID>60CD8A2F-B303-C1F6-B17C-78127988D357</generatorID>
+<ownerDesignName>Publikacje</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KRAJ" id="9E280621-D618-307D-711B-84F1E16B7F50">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:41:06 UTC</createdTime>
+<generatorID>5E7A4F4D-BC6D-6FB0-ED41-10021447C9E6</generatorID>
+<ownerDesignName>Publikacje</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DC075861-1F1D-B186-0C40-45833E18DF90" name="WYDAWNICTWO_PK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:41:06 UTC</createdTime>
+<generatorID>25D1BE39-295E-B84F-946A-D07B8CC83B95</generatorID>
+<ownerDesignName>Publikacje</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A3E3978-F9B9-92C6-2C07-FF9A26CEE91C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
